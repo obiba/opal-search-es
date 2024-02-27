@@ -1,5 +1,8 @@
 sudo: required
+dist: focal
 language: java
+jdk:
+  - openjdk17
 addons:
   apt:
     packages:
